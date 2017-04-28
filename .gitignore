@@ -147,3 +147,10 @@ CMakeFiles
 Makefile
 cmake_install.cmake
 install_manifest.txt
+
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

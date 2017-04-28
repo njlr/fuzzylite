@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'application',
+  srcs = [
+    'src/main.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:fuzzylite',
+  ],
+)
